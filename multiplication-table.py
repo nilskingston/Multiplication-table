@@ -27,5 +27,5 @@ h = int(input("Height of mulitplication table: "))
 for i in range(1,w+1):
     for l in range(1,h+1):
         print("{0:>3}".format(i*l), end='' )
-        
+    print("\n")
  
